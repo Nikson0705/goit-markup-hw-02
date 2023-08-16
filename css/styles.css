@@ -1,7 +1,7 @@
 body{
     font-family:"Roboto" ,sans-serif;
     color: #434455;
-    background-color: #FFF;
+    background-color: #FFFFFF;
 }
 
 ul{
@@ -42,6 +42,11 @@ ul{
         width: 21px;
 }
 
+.content :hover,
+.content :focus {
+    color: #404bbf;
+}
+
 .type-menu-studio{
     color:#2E2F42;
     font-family: Roboto;
@@ -66,8 +71,14 @@ ul{
     height: 24px;
 }
 
-.cont{
+.meta{
     font-style: normal;
+}
+
+
+.meta :hover,
+.meta :focus{
+    color: #404bbf;
 }
 
 .type-menu-contacts{
@@ -80,6 +91,7 @@ ul{
     letter-spacing: 0.32px;
     width: 67px;
     height: 24px;
+    
 }
 
 .type-info-mail{
@@ -111,6 +123,7 @@ ul{
     height: 600px;
     flex-shrink: 0;
     background: #2E2F42;
+    line-height: 1.07;
 }
 
 .hero-text{
@@ -127,6 +140,11 @@ ul{
     letter-spacing: 1.12px;
     width: 496px;
     height: 120px;
+}
+
+.hero-button :hover,
+.hero-button :focus{
+    color: #404bbf;
 }
 
 .hero-button{
@@ -146,6 +164,7 @@ ul{
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.64px;
+    cursor: pointer;
 }
 
 .about{
@@ -226,16 +245,16 @@ ul{
 }
 
 .cadr-text{
-    color:#434455;
+    color: #434455;
     text-align: center;
     /* Body */
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     width: 124px;
     height: 24px;
 }
@@ -244,6 +263,7 @@ ul{
     width: 1128px;
     height: 1000px;
     flex-shrink: 0;
+    line-height: 1.11;
 }
 
 .portdolio-name{
@@ -251,12 +271,12 @@ ul{
     text-align: center;
     /* Header 2 */
     font-family: Roboto;
-    font-size: 36px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
+    font-weight: 500;
+    line-height: 1.2;
     /* 111.111% */
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     width: 218px;
     height: 40px;
@@ -294,9 +314,9 @@ ul{
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .done{
