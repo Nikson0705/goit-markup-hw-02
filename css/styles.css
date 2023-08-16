@@ -42,8 +42,8 @@ ul{
         width: 21px;
 }
 
-.content :hover,
-.content :focus {
+.content:hover,
+.content:focus {
     color: #404bbf;
 }
 
@@ -89,9 +89,7 @@ ul{
 }
 
 
-.meta :hover{
-    color:#404bbf;
-}
+.meta :hover,
 .meta :focus {
     color: #404bbf;
 }
@@ -144,9 +142,9 @@ ul{
     height: 120px;
 }
 
-.hero-button :hover,
-.hero-button :focus{
-    background-color: #404bbf;
+.hero-button:hover,
+.hero-button:focus{
+    background-color:#404bbf;
 }
 
 .hero-button{
@@ -239,7 +237,7 @@ ul{
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     /* 120% */
     letter-spacing: 0.02em;
     width: 134px;
@@ -341,7 +339,7 @@ ul{
     height: 72px;
 }
 
-.logo-studioo{
+.logo-studio{
     color: #F4F4FD;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
