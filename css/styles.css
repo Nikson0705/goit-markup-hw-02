@@ -9,8 +9,6 @@ ul{
 }
 
 .type{
-    width: 1440px;
-    height: 72px;
     background: #fff;
 }
 
@@ -77,8 +75,8 @@ ul{
 }
 
 
-.type-info :hover,
-.type-info:focus {
+.type-info-mail :hover,
+.type-info-mail :focus {
     color: #404bbf;
 }
 
@@ -92,6 +90,10 @@ ul{
     letter-spacing: 0.02em;
 }
 
+.type-info-phone :hover,
+.type-info-phone :focus {
+    color: #404bbf;
+}
 .type-info-phone{
     color:#434455;
     font-family: Roboto;
@@ -103,7 +105,6 @@ ul{
 }
 
 .hero{
-    flex-shrink: 0;
     background: #2E2F42;
     line-height: 1.07;
 }
@@ -111,7 +112,6 @@ ul{
 .hero-text{
     color:#FFF;
     text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /* Header 1 */
     font-family: Roboto;
     font-size: 56px;
@@ -166,7 +166,6 @@ ul{
 }
 
 .our{
-    flex-shrink: 0;
     background:#F4F4FD;
     line-height:1.11
 }
@@ -218,7 +217,6 @@ ul{
 }
 
 .portdolio{
-    flex-shrink: 0;
     line-height: 1.11;
 }
 
@@ -264,7 +262,6 @@ ul{
 }
 
 .done{
-    flex-shrink: 0;
     background:#2E2F42;
 }
 
