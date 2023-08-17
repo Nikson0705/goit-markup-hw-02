@@ -39,7 +39,27 @@ ul{
     color: #404bbf;
 }
 
-.type-menu-class{
+.type-menu-studio {
+    color:#2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.type-menu-portfolio{
+    color:#2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+
+.type-menu-contacts{
     color:#2E2F42;
     font-family: Roboto;
     font-size: 16px;
@@ -58,7 +78,17 @@ ul{
     color: #404bbf;
 }
 
-.type-info-class{
+.type-info-mail{
+    color:#434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.type-info-phone{
     color:#434455;
     font-family: Roboto;
     font-size: 16px;
