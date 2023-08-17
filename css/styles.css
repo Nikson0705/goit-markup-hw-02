@@ -39,7 +39,7 @@ ul{
     color: #404bbf;
 }
 
-.type-menu-studio{
+.type-menu-class{
     color:#2E2F42;
     font-family: Roboto;
     font-size: 16px;
@@ -49,58 +49,16 @@ ul{
     letter-spacing: 0.02em;
 }
 
-.type-menu-portfolio{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.type-menu-contacts{
-    color: #2E2F42;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.type-info {
+.info{
     font-style: normal;
 }
 
-.classic{
-    font-style: normal;
-}
-
-.type-info-mail :hover{
-    color: #404bbf;
-}
-.type-info-mail :focus {
+.type-info :hover,
+.type-info :focus {
     color: #404bbf;
 }
 
-.type-info-mail{
-    color:#434455;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-.type-info-phone :hover{
-    color: #404bbf;
-}
-.type-info-phone :focus {
-    color: #404bbf;
-}
-.type-info-phone{
+.type-info-class{
     color:#434455;
     font-family: Roboto;
     font-size: 16px;
